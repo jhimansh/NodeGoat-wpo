@@ -20,6 +20,9 @@ jobs:
       - name: do npm install
         run: npm install
         
+      - name: install protectonce
+        run: npm install @protectonce/agent
+        
       - name: Check out repository
         uses: actions/checkout@v2
         
